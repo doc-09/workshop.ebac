@@ -1,0 +1,101 @@
+
+header,
+footer {
+    background-color: #d9d9d9;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 0;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+img {
+    width: 74%;
+    height: auto;
+}
+
+#logo {
+    width: 120px;
+    margin: 30px 0;
+    height: auto;
+}
+
+.carousel,
+.row {
+    margin-bottom: 30px;
+}
+
+.carousel {
+    margin-top: 30px;
+}
+
+.carousel {
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.carousel img {
+    width: 80%;
+    height: auto;
+}
+
+.btn-primary {
+    background-color: rgb(0, 51, 255);
+}
+
+.btn-primary:hover {
+    background-color: rgb(9, 49, 148);
+}
+
+
+.card {
+    float: left;
+    margin: 15px;
+}
+
+.profile-picture {
+    border-radius: 460px;
+    max-height: 160px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: auto;
+  }
+
+  .header-profile {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .profile {
+    display: flex;
+  }
+
+  .title {
+    margin-left: 16px;
+    align-self: center;
+  }
+
+  .title h3 {
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+  .theme button {
+    align-self: flex-end;
+    padding: 8px 16px;
+    border-radius: 100px;
+    background: #1c1c1c;
+    color: #ffffff;
+  }
+  
+  .dark .theme button {
+    background: #ffffff;
+    color: #1c1c1c;
+  }
+
+  .dark {
+    background: linear-gradient(236.85deg, #2b2b2b 27.26%, #1b1b1b 96.03%);
+  }
