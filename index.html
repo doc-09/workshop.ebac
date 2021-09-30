@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
 
-    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 
-    <link rel="stylesheet" href="./css/style.css">
-    
-  </head>
-  <body>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
 
-    <header>
-      <div class="container"> 
-        <img id="logo" alt="logo" width="110" height="40" src="https://ebaconline.com.br/_nuxt/d58908d198123d3c50c18638f58abb26.svg" class="not-lazy">
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <header class="header-profile">
+      <div class="profile">
+        <img class="profile-picture" src="https://github.com/pDoCq.png" />
+        <div class="title">
+          <h3>Student of Technology in Systems Analysis and Development</h3>
+          <h4>SENAC</h4>
+        </div>
+      </div>
+      <div class="theme">
+        <button onclick="changeTheme()">Theme</button>
+
       </div>
     </header>
 
-    
-    
+
+
     <section class="container">
 
       <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
@@ -32,10 +43,10 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <div class="carousel-item active">
-            <img src="./images/pexels-luis-gomes-546819.jpg" alt="First slide">
+            <img src="./images/meu-ps5-rafael.jpg" alt="First slide">
           </div>
           <div class="carousel-item">
-            <img src="./images/pexels-marta-branco-1194713.jpg" alt="Foto de Marta Branco no Pexels">
+            <img src="./images/meus-games.jpg" alt="Foto de Marta Branco no Pexels">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
@@ -45,51 +56,40 @@
         <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
-          </button>
+        </button>
       </div>
 
       <div class="row">
         <div class="col-md-6 col-sm-12">
-          <h1>Marcelo </h1>
-          <h6>Tech lead - Dasa / Professo - EBAC</h6>
-          <p>Desenvolvedor Web desde 2008, com vasta experiência em projetos de internet, incluindo dispositivos móveis, marketing e performance digital. Já trabalhou em empresas como UOL, Valor Econômico, Editora Abril e PagSeguro, além de prestar consultoria para diversas marcas nacionais e multinacionais. Ele tem vasta experiência com React, JavaScript, HTML5, SASS, Node.js, Vue.js, Next.js, Laravel, typescript e nest.js</p>
+          <h1>Rafael Araujo</h1>
+          <p>Atualmente cursando Tecnologia em Análise e Desenvolvimento de Sistemas, com facilidade e experiência na
+            área de atendimento ao público, busco mudar de área de atuação com estágio que possa me oferecer o
+            aprendizado necessário para meu crescimento e cursos direcionados na área de interesse.
+            Experiência na área em treinamento de atletismo, desde a iniciação até a especialização, com crianças,
+            jovens, adultos e portadores de deficiência. Na atuação como treinador, o trabalho com pessoas me trouxe
+            muita gratificação por elas superarem desafios e obstáculos.
+            A facilidade no atendimento ao público veio através dessa fase e com cursos que promoveram o
+            aperfeiçoamento
+            como instrutor de academia, sendo capaz de fidelizar e obter bons retornos com os meus clientes.</p>
         </div>
         <div class="col-md-6 col-sm-12">
-          <img src="./images/pexels-marta-branco-1194713.jpg" alt="Foto de Marta Branco no Pexels">
+          <img src="./images/melhor-cafe.jpg" alt="Foto de Rafael Araujo">
         </div>
       </div>
 
-      <h2>Habilidades</h2>
+      <h2>Projeto</h2>
       <div class="row">
         <div class="col">
-          
+
           <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="./images/emoji.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Certificard</h5>
+              <p class="card-text">Projeto em andamento utilizando as linguagens de HTML, CSS e JavaScript.</p>
+              <a href="https://pdocq.github.io/Certificard/" class="btn btn-primary">Github</a>
             </div>
           </div>
 
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          
         </div>
       </div>
 
@@ -99,31 +99,45 @@
           <div class="accordion" id="meuacordeon">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Publicidade
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Tecnologia em Análise e Desenvolvimento de Sistemas
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#meuacordeon">
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#meuacordeon">
                 <div class="accordion-body">
-                  <p>Trabalho com grid, componentes...</p>
+                  <p>2021-2024 Atuar em organizações de TI, seja em empresas prestadoras de serviços, startups ou dentro
+                    de equipes que desenvolvam sistemas para as organizações. Assim, dentro das suas atividades estão
+                    análise, projeto, especificação, documentação, teste, implementação e manutenção dos sistemas
+                    computacionais de informação para diferentes dispositivos (desde servidores até smartphones) e
+                    segmentos de mercado. Para tanto, utiliza conhecimentos técnicos, organizacionais e comportamentais,
+                    voltados para análise e desenvolvimento eficientes e adequados para sistemas de informação. </p>
                 </div>
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne"> 
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                  Sistemas de Informação
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                  aria-expanded="true" aria-controls="collapseTwo">
+                  Bacharelado em Educação Física
                 </button>
               </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#meuacordeon">
+              <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#meuacordeon">
                 <div class="accordion-body">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dicta veniam quibusdam eligendi? Quis, eum? Mollitia molestias facilis ut sint? Voluptas commodi quisquam itaque numquam nostrum praesentium ab mollitia dolorum.</p>
-                  
+                  <p>2012-2017 Atuação junto a diversos segmentos da organização social, pública e particular
+                    (instituições e
+                    academias especializadas, centros comunitários, condomínios, hospitais, creches, hotéis, clínicas,
+                    prestação de serviço). Entre os objetivos do curso está desenvolver atitudes éticas, reflexivas,
+                    críticas, inovadoras e democráticas, além de incentivar a investigação científica em Educação
+                    Física.</p>
+
                 </div>
               </div>
-              
+
             </div>
-            
+
           </div>
         </div>
       </div>
@@ -131,13 +145,19 @@
     </section>
 
     <footer>
-      <p class="text-center">&copy; 2021 - Desenvolvido por Marcelo</p>
+      <p class="text-center">&copy; 2021 - Desenvolvido por Rafael Araujo</p>
     </footer>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"></script>
     <script>
       console.log('hello world')
     </script>
-  </body>
+    <script>function changeTheme() {
+        document.body.classList.toggle("dark");
+      }</script>
+</body>
+
 </html>
